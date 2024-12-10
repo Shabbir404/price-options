@@ -1,4 +1,6 @@
 import './App.css'
+import DaisyNav from './components/deisyNav/DaisyNav'
+import Nav from './components/NavBar/Nav'
 
 function App() {
 
@@ -6,9 +8,10 @@ function App() {
   return (
     <>
       <div>
-
+        <Nav></Nav>
+        {/* <DaisyNav></DaisyNav> */}
       </div>
-      <h2 className='text-7xl'>hello</h2>
+
 
     </>
   )
