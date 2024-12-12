@@ -21,7 +21,9 @@ const Nav = () => {
                 }
             </div>
             <div>
-                <ul className={` md:mt-5 roboto-medium md:flex duration-1000  text-center md:static mr-3 px-6 shadow-lg md:shadow-none rounded-xl bg-white absolute 
+                <ul className={` md:mt-5 roboto-medium md:flex duration-1000 
+                text-center md:static mr-3 px-6 shadow-lg md:shadow-none 
+                rounded-2xl bg-white absolute 
                     ${icon ? '' : 'hidden'}`}>
 
                     {
